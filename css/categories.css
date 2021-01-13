@@ -1,0 +1,43 @@
+.Categories {
+    align-content: center;
+    cursor: pointer;
+    color: #222222;
+    position: relative;
+    display: inline-block;
+}
+
+.CategoryButton {
+    width: 100%;
+    padding-left: 0px;
+    align-items: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    text-decoration: none;
+    -ms-text-size-adjust: auto;
+    line-height: 32px;
+    display: none;
+}
+
+.Categories:hover .CategoryButton {display: block;}
+
+.CategoryButton:hover {
+    display: block;
+}
+
+.CategoryImage {
+
+}
+
+.CategoryPicture {
+    width: 40px;
+    height: 28px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+img {
+    overflow: hidden;
+    transform-origin: 0px 0px;
+    width: 40px;
+    height: 28px;
+}

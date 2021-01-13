@@ -1,0 +1,81 @@
+.Quantity {
+    background-color: #ff5a00;
+    border-radius: 8px;
+    box-sizing: content-box;
+    color: #fff;
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    min-width: 8px;
+    padding: 0 4px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 4px;
+}
+.Cart {
+    top: calc(100% - 16px);
+}
+.BasketMenu {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    color: #222;
+    cursor: pointer;
+    font-family: Open Sans,sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+    text-size-adjust: 100%;
+    display: flex;
+    position: absolute;
+}
+.Basket {
+    transform: scale(1);
+    cursor: inherit;
+    vertical-align: top;
+    -webkit-tap-highlight-color: #ffffff00;
+    box-sizing: border-box;
+    font-family: Open Sans,sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+    text-size-adjust: 100%;
+}
+.Box {
+    width: 100%;
+    padding-left: 0px;
+    align-items: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    text-decoration: none;
+    -ms-text-size-adjust: auto;
+    line-height: 32px;
+    display: none;
+}
+.BasketItems {
+    align-content: center;
+    cursor: pointer;
+    color: #222222;
+    position: relative;
+    display: inline-block;
+}
+.BasketItems:hover .Box {display: block;}
+
+.Box:hover {
+    display: block;
+}
+.BasketSection {
+    max-height: calc(100vh - 82px);
+    box-sizing: border-box;
+    width: 460px;
+    max-height: calc(100vh - 80px);
+    border: 1px solid #c3c3c3;
+    right: 0;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    background-color: #eceff1;
+    margin: 0;
+    padding: 0;
+}
