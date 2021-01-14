@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -6,6 +7,7 @@
 <body>
 
 <?php
+include $_SESSION['DIR'] . '/php-project/Menu.php';
 require_once("../../php/DBCredentials.php");
 require_once("../../php/GET/GetLoginHTML.php");
 require_once("../../php/SQLProxy.php");

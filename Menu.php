@@ -1,6 +1,7 @@
 <?php
-require_once("../php-project/php/DBCredentials.php");
-require_once("../php-project/php/SQLProxy.php");
+
+require_once(dirname(__DIR__) . "/php-project/php/DBCredentials.php");
+require_once(dirname(__DIR__) . "/php-project/php/SQLProxy.php");
 
 $dbCredentials = new DBCredentials();
 $sqlProxy = new SQLProxy(null, $dbCredentials);
@@ -9,26 +10,29 @@ $sqlProxy = new SQLProxy(null, $dbCredentials);
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/basket.css">
-        <link rel="stylesheet" href="css/Items.css">
-        <link rel="stylesheet" href="css/categories.css">
-        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="http://localhost/php-project/css/basket.css">
+        <link rel="stylesheet" href="http://localhost/php-project/css/Items.css">
+        <link rel="stylesheet" href="http://localhost/php-project/css/categories.css">
+        <link rel="stylesheet" href="http://localhost/php-project/css/menu.css">
         <meta charset="utf-8">
         <title>TITLE</title>
     </head>
     <body>
         <div class="Menu">
             <div class="Main">
-                <?php include 'php/GET/GetCategories.php'; ?>
+                <div>
+                    <a class="Account" href="http://localhost/php-project/Main.php">Strona Główna</a>
+                </div>
+                <?php include $_SESSION['DIR'] . '/php-project/php/GET/GetCategories.php'; ?>
                 <div class="Account">
-                    <?php include 'php/GET/GetAccountData.php'; ?>
+                    <?php include $_SESSION['DIR'] . '/php-project/php/GET/GetAccountData.php'; ?>
                 </div>
 
                 <div class="BasketItems">
                     <div>
                         <div class="Account BasketMenu">
                             <div class="Basket">
-                                <img src="images/koszyk.svg" alt="basket">
+                                <img src="http://localhost/php-project/images/koszyk.svg" alt="basket">
                             </div>
                             <div class="Cart Quantity" data-role="cart-quantity"><?php if(isset($_SESSION["Quantity"])) { echo $_SESSION["Quantity"]; } else echo 0; ?></div>
                         </div>
@@ -70,7 +74,7 @@ $sqlProxy = new SQLProxy(null, $dbCredentials);
                                 </ul>
                             </div>
                             <div class="Summary">
-                                <h3>Łączna kwota w koszyku: </h3>
+                                <h3>Łączna kwota w koszyku: <?php if(isset($_SESSION["price"])) echo $_SESSION["price"]; else echo 0;?></h3>
                             </div>
                             <div class="BoxButtons">
                                 <form name='AddToBasket' role='form' method='post' action="htmlspecialchars($_SERVER["PHP_SELF"])" />

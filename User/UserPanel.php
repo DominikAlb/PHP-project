@@ -3,7 +3,7 @@ session_start();
 require_once("../php/DBCredentials.php");
 require_once("../php/GET/GetLoginHTML.php");
 require_once("../php/SQLProxy.php");
-
+include $_SESSION['DIR'] . '/php-project/Menu.php';
 $street = $postcode = $city = $home = $Error = "";
 $oldpwd = $newpwd = $confirmpwd = "";
 $id = "";
@@ -81,7 +81,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         $sql = "SELECT ID, EDUCATION FROM EDUCATION";
                         echo $getLoginHTML->showDBSelect($sql, null, "ID", "EDUCATION");
                         ?>
-                    </div>
+                    </div>                                                                                    
                     <div class='RegisterButton'>
                         <button name="EditEducation" role='button' type='submit'>Zmień ustawienia</button>
                     </div>

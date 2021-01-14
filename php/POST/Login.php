@@ -6,6 +6,7 @@
 </head>
 <body>
 <?php
+    include $_SESSION['DIR'] . '/php-project/Menu.php';
     require_once("../../php/DBCredentials.php");
     require_once("../../php/GET/GetLoginHTML.php");
     // define variables and set to empty values

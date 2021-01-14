@@ -9,7 +9,7 @@
 require_once("../php/DBCredentials.php");
 require_once("../php/SQLProxy.php");
 require_once("../php/GET/GetLoginHTML.php");
-
+include $_SESSION['DIR'] . '/php-project/Menu.php';
 $success = $emailErr = $phoneErr = $ftErr = $ltErr = $pwdErr = $nameErr = $subcategoryErr = "";
 $firstname = $email = $lastname = $phone = $password = $name = $subcategory = "";
 $mark = $markErr = $price = $priceErr = $weight = $weightErr = $quantity = $quantityErr = $description = $descriptionErr = "";

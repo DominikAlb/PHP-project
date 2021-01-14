@@ -1,7 +1,7 @@
 <div>
     <?php
-    require_once("../php-project/php/DBCredentials.php");
-    require_once("../php-project/php/GET/GetLoginHTML.php");
+    require_once(dirname(__DIR__) .  "/DBCredentials.php");
+    require_once(dirname(__DIR__) .  "/GET/GetLoginHTML.php");
     $dbCredentials = new DBCredentials();
     $getLoginHTML = new GetLoginHTML($dbCredentials);
     if ($getLoginHTML->ifLoggedIn('name')) {

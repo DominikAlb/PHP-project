@@ -1,23 +1,11 @@
 <?php session_start();
 
-    function addToBasketCart(int $itemID, int $quantity) {
-
-        if (isset($_SESSION["basket"]) && in_array($itemID, $_SESSION["basket"])) {
-            $_SESSION["basket"][$itemID] = $_SESSION["basket"][$itemID] + $quantity;
-        } else if (!isset($_SESSION["basket"])) {
-            $_SESSION["basket"] = [$itemID => $quantity];
-        } else {
-            $_SESSION["basket"][$itemID] = $quantity;
-        }
-        if (isset($_SESSION["Quantity"])) {
-            $_SESSION["Quantity"] = $_SESSION["Quantity"] + $quantity;
-        } else {
-            $_SESSION["Quantity"] = $quantity;
-        }
-    }
+    $_SESSION['DIR'] = dirname(__DIR__);
+    require_once(dirname(__DIR__)."/php-project/php/ItemData.php");
+    $itemData = new ItemData();
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        addToBasketCart($_POST["item"], $_POST["quantity"]);
+        $itemData->addToBasketCart($_POST["item"], $_POST["quantity"], $_POST["price"]);
     }
 ?>
 <!DOCTYPE html>
@@ -30,6 +18,7 @@
         <title>TITLE</title>
     </head>
     <body>
+
         <?php include 'Menu.php'; ?>
         <?php include 'php/POST/Items.php'; ?>
     </body>

@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="938c09bd-74c1-4ace-8bf7-e1b8eec89993" name="Default Changelist" comment="commit message" />
+    <list default="true" id="938c09bd-74c1-4ace-8bf7-e1b8eec89993" name="Default Changelist" comment="commit message">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/AdminPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/AdminPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Categories/Fertilizers/Fertilizers.php" beforeDir="false" afterPath="$PROJECT_DIR$/Categories/Fertilizers/Fertilizers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Categories/Flowerpots/Flowerpots.php" beforeDir="false" afterPath="$PROJECT_DIR$/Categories/Flowerpots/Flowerpots.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Categories/Grass/Grass.php" beforeDir="false" afterPath="$PROJECT_DIR$/Categories/Grass/Grass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Categories/PestControl/PestControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Categories/PestControl/PestControl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/UserPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/User/UserPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/GET/GetAccountData.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/GET/GetAccountData.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/GET/GetCategories.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/GET/GetCategories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/POST/Items.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/POST/Items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/POST/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/POST/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/POST/Logoff.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/POST/Logoff.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/POST/Register.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/POST/Register.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +101,9 @@
       <workItem from="1610268718716" duration="31844000" />
       <workItem from="1610351236631" duration="18584000" />
       <workItem from="1610443632436" duration="9551000" />
-      <workItem from="1610534588710" duration="1345000" />
+      <workItem from="1610534588710" duration="3678000" />
+      <workItem from="1610565619791" duration="3663000" />
+      <workItem from="1610605262935" duration="13295000" />
     </task>
     <task id="LOCAL-00001" summary="commit message">
       <created>1610535714713</created>
@@ -93,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610535714713</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit message">
+      <created>1610536053722</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610536053722</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +135,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit message" />

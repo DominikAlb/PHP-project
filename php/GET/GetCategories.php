@@ -1,8 +1,6 @@
 <?php
-    require_once(dirname(__FILE__) . "/../SQLProxy.php");
-    require_once(dirname(__FILE__) . "/../DBCredentials.php");
-
-
+    require_once($_SESSION['DIR'] . "/php-project/php/SQLProxy.php");
+    require_once($_SESSION['DIR'] . "/php-project/php/DBCredentials.php");
 ?>
 
 <div>
@@ -11,23 +9,17 @@
         <div class="CategoryButton">
             <div class="Grass Seeds">
                 <a class="SeedsLink GrassLink" href="/php-project/Categories/Grass/Grass.php">
-                    <svg class="CategoryPicture">
-                        <img src="Categories/Grass/seeds-menu.jpg" class="CategoryImage"></img>
-                    </svg>
                     NASIONA TRAWY
                     <div class="Subcategories">
                         <ul>
-                            <li>Trawy Ozdobne</li>
-                            <li>Trawy Sportowe</li>
+                            <a href="/php-project/Categories/Grass/Grass.php?Show='Trawy zdobne'"><li>Trawy Ozdobne</li></a>
+                            <a href="/php-project/Categories/Grass/Grass.php?Show='Trawy Sportowe'"><li>Trawy Sportowe</li></a>
                         </ul>
                     </div>
                 </a>
             </div>
             <div class="Flowerpots">
                 <a class="FlowerpotsLink" href="/php-project/Categories/Flowerpots/Flowerpots.php">
-                    <svg class="CategoryPicture">
-                        <img src="Categories/Flowerpots/flowerpot-menu.jpg" class="CategoryImage">
-                    </svg>
                     DONICZKI
                     <div class="Subcategories">
                         <ul>
@@ -39,9 +31,6 @@
             </div>
             <div class="Fertilizers">
                 <a class="FertilizersLink" href="/php-project/Categories/Fertilizers/Fertilizers.php">
-                    <svg class="CategoryPicture">
-                        <img src="Categories/Fertilizers/fertilizers-menu.jpg" class="CategoryImage">
-                    </svg>
                     NAWOZY
                     <div class="Subcategories">
                         <ul>
@@ -53,9 +42,6 @@
             </div>
             <div class="PestControl">
                 <a class="PestControlLink" href="/php-project/Categories/PestControl/PestControl.php">
-                    <svg class="CategoryPicture">
-                        <img src="Categories/PestControl/pestcontrol-menu.jpg" class="CategoryImage">
-                    </svg>
                     ŚRODKI OCHRONY ROŚLIN
                     <div class="Subcategories">
                         <ul>
