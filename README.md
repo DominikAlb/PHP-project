@@ -2,7 +2,8 @@
 
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Instrukcja dotycząca instalacji strony internetowej
+
 
 ### What is this repository for? ###
 
