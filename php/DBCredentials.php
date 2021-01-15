@@ -3,7 +3,7 @@
     Class DBCredentials implements DBData {
         private string $servername = "localhost";
         private string $username = "root";
-        private string $password = "";
+        private string $password = "34FFI!TbHw8";
         private string $dbname = "PHPProject";
         private mysqli $conn;
 
