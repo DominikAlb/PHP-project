@@ -16,26 +16,21 @@ Projekt powinien się znaleźć w katalogu 'xampp\htdocs\php-project'
 Dodany został plik phpproject.sql, utworzony za pomocą komendy: </br>
 mysqldump -u[nazwa_konta] -p[hasło_do_konta] --databases [nazwa_bazy_danych] > [katalog_docelowy][plik_docelowy].sql
 
-### Informacje o bazy danych ###
+### Informacje o bazie danych ###
 
 Baza danych ustawiona w aplikacji XAMPP: 10.4.17-MariaDB
+lolcalhost został zablokowany hasłem: w celu odblokowania 'localhost' należy dodać hasło do pliku config.inc.php pod linią 
+'/* Authentication type and info */' </br>
+$cfg['Servers'][$i]['password'] = [hasło] </br>
 
-### How do I get set up? ###
+Dane do połączenia strony z bazą danych znajdują się w pliku DBCredentials.php i to samo hasło jest używane w parametrze $cfg['Servers'][$i]['password']
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
 
-### Contribution guidelines ###
+### Strona Główna ###
 
-* Writing tests
-* Code review
-* Other guidelines
+Program można uruchomić poprzez uruchomienie Apache i MySQL w XAMPP a następnie przejściem do strony [http://localhost/php-project/Main.php](http://localhost/php-project/Main.php)
 
-### Who do I talk to? ###
+### Dodatkowe informacje ###
 
-* Repo owner or admin
-* Other community or team contact
+Dodadtkowe informacje z instrukcją obsługi strony znajdują się w pliku pdf.
+
