@@ -13,14 +13,12 @@ lub użyć innych opcji za pomocą przycisku <b>Code</b>
 
 Projekt powinien się znaleźć w katalogu 'xampp\htdocs\php-project'
 
-Dodany został plik phpproject.sql, utworzony za pomocą komendy:
+Dodany został plik phpproject.sql, utworzony za pomocą komendy: </br>
 mysqldump -u[nazwa_konta] -p[hasło_do_konta] --databases [nazwa_bazy_danych] > [katalog_docelowy][plik_docelowy].sql
 
-### What is this repository for? ###
+### Informacje o bazy danych ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Baza danych ustawiona w aplikacji XAMPP: 10.4.17-MariaDB
 
 ### How do I get set up? ###
 
