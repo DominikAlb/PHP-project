@@ -18,8 +18,8 @@ mysqldump -u[nazwa_konta] -p[hasło_do_konta] --databases [nazwa_bazy_danych] > 
 
 ### Informacje o bazie danych ###
 
-Baza danych ustawiona w aplikacji XAMPP: 10.4.17-MariaDB
-lolcalhost został zablokowany hasłem: w celu odblokowania 'localhost' należy dodać hasło do pliku config.inc.php pod linią 
+Baza danych ustawiona w aplikacji XAMPP: 10.4.17-MariaDB </br>
+localhost został zablokowany hasłem: w celu odblokowania 'localhost' należy dodać hasło do pliku config.inc.php pod linią 
 '/* Authentication type and info */' </br>
 $cfg['Servers'][$i]['password'] = [hasło] </br>
 
