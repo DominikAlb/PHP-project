@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="938c09bd-74c1-4ace-8bf7-e1b8eec89993" name="Default Changelist" comment="dodano główne funkcje do opcji koszyka&#10;eng: added main functions for a bucket options">
-      <change afterPath="$PROJECT_DIR$/phpproject.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/DBCredentials.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/DBCredentials.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/AdminPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/AdminPanel.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +91,9 @@
       <workItem from="1610565619791" duration="3663000" />
       <workItem from="1610605262935" duration="14189000" />
       <workItem from="1610743759985" duration="789000" />
+      <workItem from="1610797659824" duration="613000" />
+      <workItem from="1610818596463" duration="1202000" />
+      <workItem from="1610889316767" duration="2286000" />
     </task>
     <task id="LOCAL-00001" summary="commit message">
       <created>1610535714713</created>

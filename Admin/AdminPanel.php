@@ -28,7 +28,6 @@ $sql = "SELECT ID, NAME, PRICE, QUANTITY FROM ITEM";
 $table3 = showDBTable($sql, null, $sqlProxy, "DeleteItem");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    print_r($_POST);
     if(isset($_POST["show"])) {
         if($_POST["show"] == "Admin") {
             $email = $firstname = $lastname = $password = $phone = "";
