@@ -19,12 +19,6 @@ mysqldump -u[nazwa_konta] -p[hasło_do_konta] --databases [nazwa_bazy_danych] > 
 ### Informacje o bazie danych ###
 
 Baza danych ustawiona w aplikacji XAMPP: 10.4.17-MariaDB </br>
-localhost został zablokowany hasłem: w celu odblokowania 'localhost' należy dodać hasło do pliku config.inc.php pod linią 
-'/* Authentication type and info */' </br>
-$cfg['Servers'][$i]['password'] = [hasło] </br>
-
-Dane do połączenia strony z bazą danych znajdują się w pliku DBCredentials.php i to samo hasło jest używane w parametrze $cfg['Servers'][$i]['password']
-
 
 ### Strona Główna ###
 
@@ -32,5 +26,5 @@ Program można uruchomić poprzez uruchomienie Apache i MySQL w XAMPP a następn
 
 ### Dodatkowe informacje ###
 
-Dodadtkowe informacje z instrukcją obsługi strony znajdują się w pliku pdf.
+Dodadtkowe informacje z instrukcją obsługi strony znajdują się w pliku <b>Dokumentacja.pdf</b>.
 
