@@ -54,4 +54,12 @@ class ItemData {
         }
 
     }
+
+    function removeFromBasketCart(int $itemID, int $quantity=1, int $price=0) {
+
+        $_SESSION["basket"][$itemID] = 0;
+        $_SESSION["Quantity"] = $_SESSION["Quantity"] - $quantity;
+        $_SESSION["price"] = $_SESSION["price"] - $price;
+
+    }
 }

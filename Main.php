@@ -6,6 +6,7 @@
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $itemData->addToBasketCart($_POST["item"], $_POST["quantity"], $_POST["price"]);
+
     }
 ?>
 <!DOCTYPE html>

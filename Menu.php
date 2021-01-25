@@ -64,8 +64,12 @@ $sqlProxy = new SQLProxy(null, $dbCredentials);
                                                 </span>
                                             </div>
                                             <div class="ItemActions">
-                                                <a href=<?php echo "http://localhost/php-project/POST/Remove.php?id=$item[ID]" ?>  title="Usuń ten produkt"
-                                                data-confirm="Czy na pewno chcesz usunąć ten produkt z koszyka?" class="RemoveItem">Usuń</a>
+                                                <form name='loginForm' role='form' method='post' action="http://localhost/php-project/php/POST/Remove.php">
+                                                    <input name='quantity' value="<?php echo $value; ?>" style='display: none'>
+                                                    <input name='price' value="<?php echo $item["Price"]; ?>" style='display: none'>
+                                                    <button name="ID" value="<?php echo $item['ID']; ?>" role="button" type="submit" title="Usuń ten produkt"
+                                                    data-confirm="Czy na pewno chcesz usunąć ten produkt z koszyka?" class="RemoveItem">Usuń</button>
+                                                </form>
                                             </div>
                                         </li>
                                         <?php

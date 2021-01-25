@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="938c09bd-74c1-4ace-8bf7-e1b8eec89993" name="Default Changelist" comment="dodano główne funkcje do opcji koszyka&#10;eng: added main functions for a bucket options">
+    <list default="true" id="938c09bd-74c1-4ace-8bf7-e1b8eec89993" name="Default Changelist" comment="dodano Dokumentacje w formie pdf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Admin/AdminPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/AdminPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/ItemData.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/ItemData.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/POST/Remove.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/POST/Remove.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +96,9 @@
       <workItem from="1610743759985" duration="789000" />
       <workItem from="1610797659824" duration="613000" />
       <workItem from="1610818596463" duration="1202000" />
-      <workItem from="1610889316767" duration="2286000" />
+      <workItem from="1610889316767" duration="2341000" />
+      <workItem from="1610894497391" duration="995000" />
+      <workItem from="1611509594486" duration="5853000" />
     </task>
     <task id="LOCAL-00001" summary="commit message">
       <created>1610535714713</created>
@@ -116,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610651903970</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dodano Dokumentacje w formie pdf">
+      <created>1610894206288</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610894206288</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +149,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit message" />
     <MESSAGE value="dodano główne funkcje do opcji koszyka&#10;eng: added main functions for a bucket options" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodano główne funkcje do opcji koszyka&#10;eng: added main functions for a bucket options" />
+    <MESSAGE value="dodano Dokumentacje w formie pdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodano Dokumentacje w formie pdf" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
